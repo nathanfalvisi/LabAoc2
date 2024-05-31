@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+main() {
+    int exp, x, r;
+
+    printf("Digite o valor de exp: ");
+    scanf("%d", &exp);
+
+    printf("Digite o valor de x: ");
+    scanf("%d", &x);
+
+    r = x << exp;
+
+    printf("%d\n", r);
+
+}
